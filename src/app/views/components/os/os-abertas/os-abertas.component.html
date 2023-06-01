@@ -1,0 +1,17 @@
+<div id="container">
+   <h1>Observações da Ordem de serviço</h1>
+   
+   <mat-card id="card">
+   <div id="data">
+        <p>Data de Abertura: {{os.DataAbertura}}</p>
+    </div>
+    <!-- <p>Tecnico: {{tecnico.nome}}</p>
+    <p>Cliente: {{cliente.nome}}</p>
+    <p>Status: {{os.status}}</p>
+    <p>Prioridade: {{os.prioridade}}</p> -->
+    
+    
+        <p>{{os.observacoes}}</p>
+    </mat-card>
+    <button (click)="voltar()" mat-stroked-button color="warn">Voltar</button>
+</div>
